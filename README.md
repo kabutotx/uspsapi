@@ -6,7 +6,7 @@ This is a ColdFusion CFC used to connect to USPS API using OAuth.
 * ACF 11+
 * Lucee 5+
 
-To authenticate with the USPS API, use your application's Consumer KEY and SECRET. If you don't have these credentials, setup your application from https://developer.usps.com (production) or https://developer-cat.usps.com (testing).
+To authenticate with the USPS API, use your application's Consumer KEY and SECRET. If you don't have these credentials, setup your application from https://developers.usps.com.
 
 ## Initialization
 
