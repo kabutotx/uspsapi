@@ -33,9 +33,9 @@ component displayName="Addresses" accessors="true" produces="json" hint="This AP
 
 	public any function init(boolean developmentServer="false") {
 		if ( arguments.developmentServer ) {
-			baseUrl = "api-cat.usps.com";
+			baseUrl = "apis-tem.usps.com";
 		} else {
-			baseUrl = "api.usps.com";
+			baseUrl = "apis.usps.com";
 		}
 		return this;
 	}

@@ -42,9 +42,9 @@ component displayName="InternationalPrices" accessors="true" produces="json" hin
 
 	public any function init(boolean developmentServer="false") {
 		if ( arguments.developmentServer ) {
-			baseUrl = "api-cat.usps.com";
+			baseUrl = "apis-tem.usps.com";
 		} else {
-			baseUrl = "api.usps.com";
+			baseUrl = "apis.usps.com";
 		}
 		return this;
 	}
